@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuikoOS", "RuikoOS\RuikoOS.csproj", "{E64B10A3-D55B-4995-95CC-4FD50E1CAA11}"
+EndProject
+Project("{471EC4BB-E47E-4229-A789-D1F5F83B52D4}") = "RuikoOSBoot", "RuikoOS\RuikoOSBoot.Cosmos", "{0C3D6110-EC10-4B9B-88BB-2845C20C7078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E64B10A3-D55B-4995-95CC-4FD50E1CAA11}.Debug|x86.ActiveCfg = Debug|x86
+		{E64B10A3-D55B-4995-95CC-4FD50E1CAA11}.Debug|x86.Build.0 = Debug|x86
+		{E64B10A3-D55B-4995-95CC-4FD50E1CAA11}.Release|x86.ActiveCfg = Release|x86
+		{E64B10A3-D55B-4995-95CC-4FD50E1CAA11}.Release|x86.Build.0 = Release|x86
+		{0C3D6110-EC10-4B9B-88BB-2845C20C7078}.Debug|x86.ActiveCfg = Debug|x86
+		{0C3D6110-EC10-4B9B-88BB-2845C20C7078}.Debug|x86.Build.0 = Debug|x86
+		{0C3D6110-EC10-4B9B-88BB-2845C20C7078}.Release|x86.ActiveCfg = Debug|x86
+		{0C3D6110-EC10-4B9B-88BB-2845C20C7078}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
