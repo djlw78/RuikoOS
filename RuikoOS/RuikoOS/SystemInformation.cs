@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RuikoOS.System
+namespace RuikoOS
 {
     class SystemInformation
     {
 
         private static readonly String shortVersion = "0.1";
-        private static readonly String longVersion = "0.1.1.1";
+        private static readonly String longVersion = "0.1.3";
         private static readonly String productName = "RuikoOS";
         private static readonly String longName = "Ruiko Operating System";
         private static readonly String copyright = "(c) 2017 C.S. Media";

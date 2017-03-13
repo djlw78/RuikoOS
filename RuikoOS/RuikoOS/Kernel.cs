@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
-using RuikoOS.System;
+
 
 namespace RuikoOS
 {
@@ -20,10 +20,8 @@ namespace RuikoOS
 
         protected override void Run()
         {
-            Console.Write("LIVE:>");
-            var input = Console.ReadLine();
-            Console.Write("Text typed: ");
-            Console.WriteLine(input);
+            Terminal.runPrompt();
+            
         }
     }
 }
