@@ -15,6 +15,20 @@ namespace RuikoOS
             {
                 echo(cmd);
                 return true;
+            } else if (cmd[0].ToUpper() == "VER")
+            {
+                printVersion();
+                return true;
+            }
+            else if (cmd[0].ToUpper() == "CGS")
+            {
+                CGSTest.consoleTest();
+                return true;
+            }
+            else if (cmd[0].ToUpper() == "CGS1")
+            {
+                ConsoleGraphics.setBackground(ConsoleColor.Blue);
+                return true;
             }
             else
             {
@@ -33,6 +47,14 @@ namespace RuikoOS
                 output += cmd[i] + " "; //TODO: Improve this so that a space isn't left at the end
             }
             Console.WriteLine(output);
+        }
+
+        public static void printVersion()
+        {
+            Console.WriteLine(SystemInformation.getProduct());
+            Console.WriteLine(SystemInformation.getLongName());
+            Console.WriteLine(SystemInformation.getCopyright());
+            Console.WriteLine("Version " + SystemInformation.getLongVersion());
         }
     }
 }

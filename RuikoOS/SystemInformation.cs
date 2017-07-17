@@ -9,8 +9,8 @@ namespace RuikoOS
     class SystemInformation
     {
 
-        private static readonly String shortVersion = "0.1";
-        private static readonly String longVersion = "0.1.3";
+        private static readonly String shortVersion = "1.0";
+        private static readonly String longVersion = "1.0.11";
         private static readonly String productName = "RuikoOS";
         private static readonly String longName = "Ruiko Operating System";
         private static readonly String copyright = "(c) 2017 C.S. Media";
