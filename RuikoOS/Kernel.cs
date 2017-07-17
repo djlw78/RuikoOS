@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
 
-
 namespace RuikoOS
 {
-    public class Kernel : Sys.Kernel
+    public class Kernel: Sys.Kernel
     {
         protected override void BeforeRun()
         {
@@ -21,7 +20,7 @@ namespace RuikoOS
         protected override void Run()
         {
             Terminal.runPrompt();
-            
+
         }
     }
 }
