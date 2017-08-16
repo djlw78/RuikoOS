@@ -27,7 +27,8 @@ namespace RuikoOS
             }
             else if (cmd[0].ToUpper() == "CGS1")
             {
-                ConsoleGraphics.setBackground(ConsoleColor.Blue);
+                ConsoleGraphics.fillBackground(ConsoleColor.Blue);
+                ConsoleGraphics.drawBox(20,12,60,16,ConsoleColor.Gray);
                 return true;
             }
             else
